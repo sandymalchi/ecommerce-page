@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Modern Online Shopping</title>
+</head>
+<style>
+  body{
+    background-image: url('https://i.pinimg.com/originals/5c/18/b0/5c18b066da9a67121b770d72a98631ae.jpg');
+    width: 89%;
+    background-repeat: no-repeat;
+    background-size:120% 100%;
+   box-sizing: border-box;
+  }
+  .search input{
+    border-radius: 6px;
+  
+    font-size: 17px;
+  }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MVR Shopping</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+            <div class="search">
+              <input type="text" name="mytext" id="" placeholder="search here">
+            </div>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Short Top</h2>
+            <h3>$2000</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 1">
+            <h2>fashion dress</h2>
+            <h3>$3000</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 1">
+            <h2>Beautiful frock</h2>
+            <h3>$2500</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="Product 1">
+            <h2>western wear</h2>
+            <h3>$2600</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product5.jpg" alt="Product 1">
+            <h2>modern watch</h2>
+            <h3>$2800</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product6.jpg" alt="Product 1">
+            <h2>top brand watch</h2>
+            <h3>$3400</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product7.jpg" alt="Product 1">
+            <h2>cute slippers girls </h2>
+            <h3>$1500</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product8.jpg" alt="Product 1">
+            <h2>school bag</h2>
+            <h3>$1000</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="product9.jpg" alt="Product 1">
+            <h2>gorgeous ring for girls</h2>
+            <h3>$5400</h3>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+        </div>
+        <!-- Repeat the product structure for other products -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Modern Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
